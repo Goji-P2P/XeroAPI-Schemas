@@ -33,7 +33,11 @@
               jxb:version="2.0">
     <jxb:bindings xmlns="http://java.sun.com/xml/ns/jaxb" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <jxb:globalBindings generateElementProperty="false">
-            <jxb:javaType name="java.util.Calendar" xmlType="xs:dateTime" parseMethod="javax.xml.bind.DatatypeConverter.parseDateTime" printMethod="javax.xml.bind.DatatypeConverter.printDateTime"/>
+            <jxb:javaType
+                name="java.time.ZonedDateTime"
+                xmlType="xs:dateTime"
+                parseMethod="com.gojiholdings.datatypeconversion.ZonedDateTimeDatatypeConverter.parseDateTime"
+                printMethod="com.gojiholdings.datatypeconversion.ZonedDateTimeDatatypeConverter.printDateTime"/>
         </jxb:globalBindings>
     </jxb:bindings>
 </jxb:bindings>
