@@ -15,6 +15,7 @@ public class ZonedDateTimeDatatypeConverter {
 
     private static final List<DateTimeFormatter> FORMATTERS = Arrays.asList(
         DEFAULT_FORMAT,
+        DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SS").withZone(UTC),
         DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS").withZone(UTC),
         DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssX"),
         DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssz"),
