@@ -4,7 +4,7 @@
 	<groupId>com.xero</groupId>
 	<artifactId>xero-accounting-api-schema</artifactId>
 	<packaging>jar</packaging>
-	<version>1.4-GOJI</version>
+	<version>1.4.1-GOJI</version>
 	<name>Xero Accounting API Schema</name>
 	<url>http://maven.apache.org</url>
 
