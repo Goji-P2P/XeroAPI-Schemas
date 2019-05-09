@@ -38,6 +38,11 @@
                 xmlType="xs:dateTime"
                 parseMethod="com.gojiholdings.datatypeconversion.ZonedDateTimeDatatypeConverter.parseDateTime"
                 printMethod="com.gojiholdings.datatypeconversion.ZonedDateTimeDatatypeConverter.printDateTime"/>
+            <jxb:javaType
+                name="java.time.LocalDate"
+                xmlType="xs:date"
+                parseMethod="com.gojiholdings.datatypeconversion.LocalDateTypeConverter.parseLocalDate"
+                printMethod="com.gojiholdings.datatypeconversion.LocalDateTypeConverter.printLocalDate"/>
         </jxb:globalBindings>
     </jxb:bindings>
 </jxb:bindings>
