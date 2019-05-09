@@ -21,7 +21,7 @@
       <xs:element minOccurs="0" maxOccurs="1" name="ValidationErrors" type="ArrayOfValidationError" />
       <xs:element minOccurs="0" maxOccurs="1" name="Warnings" type="ArrayOfWarning" />
       <xs:element minOccurs="1" maxOccurs="1" name="JournalID" type="uniqueIdentifier" />
-      <xs:element minOccurs="1" maxOccurs="1" name="JournalDate" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="JournalDate" type="xs:date" />
       <xs:element minOccurs="1" maxOccurs="1" name="JournalNumber" type="xs:string" />
       <xs:element minOccurs="1" maxOccurs="1" name="CreatedDateUTC" type="xs:dateTime" />
       <xs:element minOccurs="0" maxOccurs="1" name="Reference" type="xs:string" />
